@@ -27,7 +27,7 @@ for (var i = 0; i < registered.length; i++) {
 
 //stampo il risultato della ricerca
 if (userFound) {
-	document.getElementById("result").innerHTML = "Puoi entrare";
+	document.getElementById("result").innerHTML = '<h2>Accesso effettuato!</h2><img src="./resources/granted.jpg">';
 } else {
-	document.getElementById("result").innerHTML = "Spiacente, l'indirizzo " + userMail + " non è stato trovato";
+	document.getElementById("result").innerHTML = '<h2>Accesso negato!</h2><img src="./resources/denied.jpg">';
 }
